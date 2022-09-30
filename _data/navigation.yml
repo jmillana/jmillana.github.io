@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Browser"
+    url: /broser/
+  - title: "Contact"
+    url: /about/
