@@ -39,7 +39,7 @@ url: "https://jmillana.github.io" # the base hostname & protocol for your site, 
 repository: "jmillana/jmillana.github.io"
 # twitter_username: jekyllrb
 github_username:  jmillana
-
+words_per_minute: 200  # Required to set the estimated read time
 
 # Site Author
 author:
@@ -84,6 +84,18 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
+# Defaults:
+  - scope:
+    path: ""
+    type: posts
+    values:
+      layout: single
+      autor_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
