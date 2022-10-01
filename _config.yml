@@ -26,7 +26,7 @@ minimal_mistakes_skin: "dark"  # "air", "aqua", "contrast", "dark", "dirt", "neo
 
 
 # Site Settings
-title: Software developer & Cybersecurity enthusiast
+title: Software Engineer | Cybersecurity enthusiast
 title_separator: "-"
 name: "jmillana"
 # email: your-email@example.com
@@ -39,6 +39,38 @@ url: "https://jmillana.github.io" # the base hostname & protocol for your site, 
 repository: "jmillana/jmillana.github.io"
 # twitter_username: jekyllrb
 github_username:  jmillana
+
+
+# Site Author
+author:
+  name             : "jmillana"
+  avatar           : "/assets/images/avatar.png"
+  bio              : "Software Engineer at Mitiga Solutions / Python / Bash / js"
+  uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "jmillana"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "jordi-marimon" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
 
 
 # Outputting
