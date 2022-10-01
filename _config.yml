@@ -21,25 +21,25 @@
 
 # Theme
 # theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin  : "dark"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 # Site Settings
-title: Software Engineer | Cybersecurity enthusiast
-title_separator: "-"
-name: "jmillana"
+title             : Software Engineer | Cybersecurity enthusiast
+title_separator   : "-"
+name              : "jmillana"
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description       : >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: # the subpath of your site, e.g. /blog
-url: "https://jmillana.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "jmillana/jmillana.github.io"
+baseurl           : # the subpath of your site, e.g. /blog
+url               : "https://jmillana.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository        : "jmillana/jmillana.github.io"
 # twitter_username: jekyllrb
-github_username:  jmillana
-words_per_minute: 200  # Required to set the estimated read time
+github_username   :  jmillana
+words_per_minute  : 200  # Required to set the estimated read time
 
 # Site Author
 author:
@@ -74,10 +74,11 @@ author:
 
 
 # Outputting
-permalink: /:title/
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink       : /:title/
+paginate        : 10 # amount of posts to show
+paginate_path   : /page:num/
+timezone        : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Build settings
 plugins:
@@ -91,7 +92,7 @@ plugins:
     type: posts
     values:
       layout: single
-      autor_profile: true
+      author_profile: true
       read_time: true
       comments: false
       share: false
