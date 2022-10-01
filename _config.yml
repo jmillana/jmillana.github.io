@@ -72,6 +72,12 @@ author:
   xing             :
   youtube          :
 
+# Reading Files
+include:
+  - _pages
+enconding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 
 # Outputting
 permalink       : /:title/
@@ -84,7 +90,6 @@ timezone        : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Defaults:
   - scope:
