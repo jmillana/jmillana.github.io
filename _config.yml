@@ -44,7 +44,7 @@ github_username:  jmillana
 # Site Author
 author:
   name             : "jmillana"
-  avatar           : "/assets/images/avatar.png"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "Software Engineer at Mitiga Solutions / Python / Bash / js"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
